@@ -1,0 +1,25 @@
+Source: python-jsonpointer
+Section: python
+Priority: optional
+Standards-Version: 4.5.0
+Maintainer: Wong Hoi Sing Edison <hswong3i@pantarei-design.com>
+Homepage: https://github.com/stefankoegl/python-json-pointer/tags
+Vcs-Browser: https://github.com/alvistack/stefankoegl-python-json-pointer
+Vcs-Git: https://github.com/alvistack/stefankoegl-python-json-pointer.git
+Build-Depends:
+ debhelper,
+ debhelper-compat (= 10),
+ dh-python,
+ fdupes,
+ python3-dev,
+ python3-setuptools,
+
+Package: python3-json-pointer
+Architecture: all
+Description: Identify specific nodes in a JSON document (RFC 6901)
+ Library to resolve JSON Pointers according to RFC 6901
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+ ${python3:Depends},
+ python3,
