@@ -1,0 +1,5 @@
+python-jsonpointer source: file-without-copyright-information
+python-jsonpointer source: no-debian-changes
+python-jsonpointer source: source-contains-prebuilt-windows-binary
+python-jsonpointer source: source-is-missing
+python-jsonpointer source: source-package-encodes-python-version
